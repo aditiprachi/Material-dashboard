@@ -1,0 +1,154 @@
+body {
+  background-color: #eeeeee;
+}
+header, main, footer {
+      padding-left: 280px;
+    }
+nav {
+  background-color: #eeeeee;
+  box-shadow: none !important;
+  margin-bottom: 2em;
+}
+.nav a{
+  color: grey ;
+}
+.sidenav hr {
+  margin: 15px;
+}
+.sidenav li a{
+  margin: 20px 10px ;
+  height: auto;
+  border-radius: 4px;
+}
+.brand-logo{
+  font-size: 1.6em!important;
+}
+.active1 {
+  background-color: orange;
+  color: #fff !important;
+}
+.card-content{
+  text-align: right;
+}
+
+.icon{
+  position: absolute;
+  top: -10%;
+  left: 5%;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.2), 0 7px 10px -5px rgba(255, 255, 255, 0.1);
+}
+.icon i{
+  padding:18px;
+  margin: auto;
+  color: white;
+  font-size: 3em;
+}
+.graph {
+  position: absolute;
+  top: -5%;
+  width: 92%;
+  margin: 0 4%;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.2), 0 7px 10px -5px rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+.chart{
+  position: relative;
+  top: -15px;
+  margin: 4%;
+  border-radius: 4px;
+}
+
+ .stats {
+    display: inline-flex;
+    padding: .6em 10px 0 20px;
+    color: #999;
+    padding-bottom: 20px;
+}
+ .card-body {
+    padding: 0 20px;
+    position: relative;
+}
+.nav-wrapper{
+  background-color: #ab47bc;
+  border-radius: 4px;
+  height: 64px!important;
+}
+.nav-wrapper a{
+  color: #fff;
+  margin-top: 4px;
+}
+.active {
+  background-color: #ba68c8;
+  border-radius: 4px;
+}
+.left a:hover{
+  background-color: #ab47bc!important;
+}
+
+.btn-s {
+  padding: 0;
+}
+#slide-out a:hover {
+  background-color: orange!important;
+}
+.td-actions {
+  display: flex;
+  flex-direction: row;
+}
+.ham {
+  position: absolute;
+  top: 2%;
+  left: 10%;
+}
+.card-action {
+  display: inline-flex;
+}
+.card-action .material-icons {
+  font-size: 1.1em!important;
+  color: grey;
+}
+.card-action a{
+  font-size: 0.8em;
+}
+.btn i {
+  padding: 0 0.3em;
+}
+.cross{
+  color: red;
+}
+
+.row .col{
+  padding-bottom: 2em;
+}
+.card{
+  border-radius: 4px;
+}
+.card-content p {
+  color: #757575;
+}
+
+.number{
+  color: #616161 !important;
+  font-size: 1.5em;
+}
+.t {
+  margin: 2.5em 0;
+}
+.text {
+  padding: 8px 10px 8px 10px;
+  color: #fff;
+  font-size: 1.3em;
+}
+.text span{
+  font-size: 0.8em;
+}
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+ }
+@media only screen and (max-width : 1200px) {
+    #chartdiv1, #chartdiv2, #chartdiv3{
+      height: 400px!important;
+    }
+ }
